@@ -20,12 +20,28 @@ To deploy a node: `gram deploy`
 
 Run `gram mux` to see logs
 
-When done deploying, visit <http://localhost:8088> for GRAM Navigator and <http://localhost:8090> for GRAM Documentation
+When done deploying, visit these pages:
+
+<http://localhost:8088> for GRAM Navigator Web App
+
+<http://localhost:8090> for GRAM SDK Documentation
+
+<http://localhost:8084> NodeJS API / documentation
+
+<http://localhost:8082/last> JSON Block explorer
+
+<http://localhost:8083/last> HTML Block explorer
+
+JSON Block explorer uses same endpoints as HTML explorer
 
 To stop all GRAM services: `gram shutdown`
+
 To see the list of available commands: `gram help`
+
 To open a TApp dev console: `gram mux dev`
+
 To see a list of TApp dev commands: `gram helpdev`
+
 To start Navigator in dev mode: `cd navigator && yarn start`
 
 [TApp Developer Reference](./reference/TApp-Development.md)
