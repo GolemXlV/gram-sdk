@@ -6,15 +6,16 @@ GRAM Navigator is an app for GRAM that includes a wallet and developer tools
 
 ## Install GRAM
 
-> If you are using Linux, you need to run GRAM as root
-
 Using GIT:
 
 ```bash
-git clone https://github.com/gram-net/gram.git
-cd gram
+git clone https://github.com/gram-net/gram-sdk.git
+cd gram-sdk
+# use sudo on Linux!
 ./bin/install
 ```
+
+> Don't use sudo on OSX, but on Linux using 'sudo' (or running as root) is necessary. This temporary inconvenience helps things work on all Linux distros and the docker builds.
 
 To deploy a node: `gram deploy`
 
